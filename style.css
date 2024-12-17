@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+   
+   font-family:"Montserrat", sans-serif;
+   margin: 0;
+   border-top: 10px solid #014862;
+   border-bottom: 10px solid #014862;
+}
+h2{
+   color:#F08D05;
+   
+ }
+
+nav li{
+   display: inline;
+   padding: 20px;
+}
+nav a{
+   text-decoration: none;
+}
+nav a:link{
+   color:white;
+}
+ 
+nav a:visited{
+   color: white;
+}
+nav a:hover {
+   color: lightgray;
+}
+nav a:active{
+   color: white;
+}
+
+/*css withous a media query--aplies to all sizes unless overridden*/
+
+h1{
+   font-size: 4em;
+}
+/*Css Adjustments for Tables*/
+@media only screen and (max-width 1024px){
+h1{
+   font-size: 4em;
+ }
+}
+/*Css Adjustments for Smartphones*/
+@media only screen and (max-width 768px){
+
+}
+/*Main*/
+main{
+   max-width: 800px;
+   margin: 40px auto;
+   padding: 20px;
+}
+header{
+   text-align: center;
+   font-family: 'Meddon' , cursive;
+   color: teal;
+
+}
+nav{
+   background-color: #F08D05  ;
+   border-top: 3px solid black;
+   border-bottom: 3px solid black;
+   padding: 20x;
+   text-align: center;
+   list-style: none;
+
+}
+nav ul{
+   list-style-type:none;
+   text-align: center;
+   margin: 8px 0;
+   padding: 0;
+
+}
+/* Footer */
+footer{
+   text-align: center;
+   background-image: url('imagine/sunset.jpg');
+   color: black;
+   padding:20px ;
+}
+
+footer a{
+   color: black;
+   text-decoration: none;
+}
+.home-hero{
+   background-image: url(imagine/sunset.jpg);
+   background-size: cover;
+   margin-bottom: 20px;
+}
+
+.home-hero h1{
+   font-family: 'Dancing Script' , cursive;
+   color: white;
+   font-size: 60px;
+   text-shadow: 2px 2px 2px black;
+   text-align: center;
+   padding: 50px 0;
+   margin: auto;
+}
+.home-photo {
+   float: right;
+   max-width: 20%;
+   height:  auto;
+   margin: 20 px ;
+   font-family: 'Dancing Script' , cursive;
+
+}
+.titulo-con-linea {
+            border-bottom: 2px solid #000; 
+            padding-bottom: 10px;         
+            margin-bottom: 20px;
+
+}
+ .contacto a {
+            color: #007BFF;
+            text-decoration: none; 
+}
+.imagen-yy{
+   background-image: url(imagine/yennifer.jpeg.jpeg);
+   background-size: cover;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+
+}
+.container-fluid {
+    padding: auto;
+    text-align: justify;
+}
+.logo{
+   margin: 0 auto;
+   display:block;
+}
+.nav-link{
+   margin-bottom: 20px;
+   color:#F08D05;
+   padding: 10px;
+   text-align:center;
+}
+
+.contact-container {
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+iframe {
+            width: 100%;
+            height: 600px; /* Ajusta la altura según sea necesario */
+            border: none;
+        }
+.contact-info {
+            margin: 20px 0;
+        }
